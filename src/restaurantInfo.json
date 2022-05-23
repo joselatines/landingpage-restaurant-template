@@ -1,0 +1,14 @@
+{
+	"data": {
+		"restaurantName": "Hiromi",
+		"mainLang": "es"
+	},
+	"content": {
+		"spanish": {
+			"header": {
+				"title": "Prueba el mejor sushi, en el mejor lugar",
+				"paragraph": "Lorem es un texto s de marcados de posicion comumente utilizando en las industrias graficas"
+			}
+		}
+	}
+}
