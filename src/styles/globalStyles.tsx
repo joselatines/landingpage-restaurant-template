@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle<{ theme: DefaultTheme }>`
     }
 	
     body {
-    	background: red;
+    	background: ${({ theme }) => theme.colors.bg};
        	color: ${({ theme }) => theme.colors.font};
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 
