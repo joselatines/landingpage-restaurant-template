@@ -16,8 +16,8 @@ export default function Header({ title, paragraph, restaurant }: Props) {
 			</div>
 			<p>{paragraph}</p>
 			<div>
-				<Button size={2}>Button</Button>
-				<button>Button</button>
+				<Button>Button</Button>
+				<Button outline={true}>Button</Button>
 			</div>
 		</Container>
 	);
