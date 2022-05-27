@@ -14,7 +14,7 @@ export const InnerContainer = styled.section`
 		gap: 2rem 1.5rem;
 
 		@media screen and (max-width: ${({ theme }) => theme.mediaQueries.table}) {
-			gap: 1rem;
+			gap: 2rem;
 			justify-content: center;
 		}
 	}

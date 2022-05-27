@@ -110,7 +110,7 @@ export default function Footer() {
 			<Row className='watermark'>
 				<span>
 					All rights reserved © 2022{' '}
-					<a href='http://' target='_blank' rel='noopener noreferrer'>
+					<a href='https://joselatines.netlify.app/' target='_blank' rel='noopener noreferrer'>
 						José Latines
 					</a>
 				</span>

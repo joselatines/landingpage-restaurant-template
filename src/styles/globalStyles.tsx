@@ -5,6 +5,8 @@ export const GlobalStyles = createGlobalStyle<{ theme: DefaultTheme }>`
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+		// If there are an unknown CSS bug look at this
+		scroll-behavior: smooth;
     }
 	
     body {
@@ -16,16 +18,16 @@ export const GlobalStyles = createGlobalStyle<{ theme: DefaultTheme }>`
     		font-size: calc(${({ theme }) => theme.font.size.default} + 6 * ((100vw - 320px) / 680));	
 		}
 
-
-
 		@media screen and (min-width: 1000px) {
    			font-size: 22px;
 		}
 		// Project styles
+
 		padding: 0 5rem;
 		a {
 			all: unset;
 			cursor: pointer;
+			
 		}
 		img { 
 			width: 100%;
