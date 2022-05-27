@@ -1,14 +1,145 @@
 {
 	"data": {
-		"restaurantName": "Hiromi",
-		"mainLang": "es"
+		"restaurantName": "Hiromi Sushi",
+		"mainLang": "es",
+		"seo": {
+			"title": "🍣Hiromi Sushi - El mejor sushi de Caracas",
+			"description": "Disfruta el mejor sushi en Caracas en restaurantes de lujo ubicados en el CCCT, C.C Sambil, C.C Líder y en casa con servicio de delivery incluido",
+			"keywords": "hiromi, sushi, landing page, pagina de inicio, sitio web hiromi suhi, caracas, restaurantes de sushi caracas, comprar suhi caracas, delivery sushi, promocion sushi"
+		}
 	},
 	"content": {
 		"spanish": {
 			"header": {
 				"title": "Prueba el mejor sushi, en el mejor lugar",
-				"paragraph": "Lorem es un texto s de marcados de posicion comumente utilizando en las industrias graficas"
+				"paragraph": "Disfruta del mejor ambiente comiendo el mejor sushi de Caracas, en los lugares mas emblemáticos de la capital"
 			}
-		}
+		},
+		"gallery": [
+			{
+				"pos": "left",
+				"img": "../../images/restaurant.jpg",
+				"alt": "chefs hiromi"
+			},
+			{ "pos": "top", "img": "../../images/chef.jpg", "alt": "chefs firomi" },
+			{
+				"pos": "bottom",
+				"img": "../../images/influencers.jpg",
+				"alt": "influencers en hiromi"
+			},
+			{ "pos": "right", "img": "../../images/dj.jpg", "alt": "dj hiromi" }
+		],
+		"promotions": [
+			{
+				"title": "10 piezas de sushi a elegir",
+				"img": "../../images/promotions/1.jpg",
+				"price": 4.0,
+				"link": "https://www.instagram.com/p/CeBgtDXuzi3/"
+			},
+			{
+				"title": "30 piezas de sushi FRÍOS",
+				"img": "../../images/promotions/2.jpg",
+				"price": 10.0,
+				"link": "https://www.instagram.com/p/CeBgw9EuSTd/"
+			},
+			{
+				"title": "Súper combo de 4 temakis",
+				"img": "../../images/promotions/3.jpg",
+				"price": 10.0,
+				"link": "https://www.instagram.com/p/CclBz9HLnrP/"
+			},
+			{
+				"title": "Súper combo de 3 pokes",
+				"img": "../../images/promotions/4.jpg",
+				"price": 10.0,
+				"link": "https://www.instagram.com/p/CclBtpCrszo/"
+			},
+			{
+				"title": "Súper combo de entradas ",
+				"img": "../../images/promotions/5.jpg",
+				"price": 10.0,
+				"link": "https://www.instagram.com/p/CclB3zgrQW6/"
+			},
+			{
+				"title": "Mojitos 2x1",
+				"img": "../../images/promotions/6.jpg",
+				"price": 3.0,
+				"link": "https://www.instagram.com/p/CclB8YnLygA/"
+			},
+			{
+				"title": "Vinotinto 2x1",
+				"img": "../../images/promotions/7.jpg",
+				"price": 5.0,
+				"link": "https://www.instagram.com/p/CclCOjHrsD8/"
+			}
+		],
+		"menu": [
+			{
+				"title": "Ceviche",
+				"img": "../../images/menu/1.webp",
+				"price": 8.0,
+				"link": "https://www.instagram.com/p/CdYfTewLhGT/"
+			},
+			{
+				"title": "Roll de salmón",
+				"img": "../../images/menu/2.jpg",
+				"price": 8.0,
+				"link": "https://www.instagram.com/p/CeBgw9EuSTd/"
+			},
+			{
+				"title": "Ensalada Jupiter",
+				"img": "../../images/menu/3.webp",
+				"price": 7.0,
+				"link": "https://www.instagram.com/p/Cd59PpRLOKj/"
+			},
+			{
+				"title": "Explosion de sabores",
+				"img": "../../images/menu/4.webp",
+				"price": 9.0,
+				"link": "https://www.instagram.com/p/CdLnYcZL7CC/"
+			},
+			{
+				"title": "Kani Roll",
+				"img": "../../images/menu/5.webp",
+				"price": 8.0,
+				"link": "https://www.instagram.com/p/CdD47QvrMvy/"
+			},
+			{
+				"title": "Poke Deluxe",
+				"img": "../../images/menu/6.webp",
+				"price": 10.0,
+				"link": "https://www.instagram.com/p/Ccx5v15rPLJ/"
+			},
+			{
+				"title": "Shironuri Roll",
+				"img": "../../images/menu/7.webp",
+				"price": 9.0,
+				"link": "https://www.instagram.com/p/CcQj4oSJZH4/"
+			},
+			{
+				"title": "Ensalada Neptuno",
+				"img": "../../images/menu/8.webp",
+				"price": 9.0,
+				"link": "https://www.instagram.com/p/Cb2pRw_LHQ8/"
+			}
+		],
+		"locations": [
+			{
+				"name": "CCCT",
+				"gps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15692.81726245532!2d-66.8542461!3d10.4845537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68c1b72d71c1d7d6!2sCentro%20Ciudad%20Comercial%20Tamanaco%20(CCCT)!5e0!3m2!1ses!2sve!4v1653661852701!5m2!1ses!2sve"
+			},
+			{
+				"name": "C.C Sambil",
+				"gps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15692.574227126906!2d-66.854531!3d10.4893475!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0a7f3589cd07134!2sCentro%20Sambil%20Caracas!5e0!3m2!1ses!2sve!4v1653679801533!5m2!1ses!2sve"
+			},
+			{
+				"name": "C.C Líder",
+				"gps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15692.74680882876!2d-66.8210799!3d10.4859436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb03e14bfba3d104f!2sC.%20C.%20L%C3%ADder!5e0!3m2!1ses!2sve!4v1653663166041!5m2!1ses!2sve"
+			},
+			{
+				"name": "C.C Paraíso",
+				"gps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15693.303682131751!2d-66.9457931!3d10.4749527!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb630fcac13751860!2sC.%20C.%20Galer%C3%ADas%20Para%C3%ADso!5e0!3m2!1ses!2sve!4v1653663290954!5m2!1ses!2sve"
+			}
+		]
 	}
 }

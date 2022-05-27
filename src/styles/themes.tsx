@@ -30,6 +30,7 @@ const transitions = {
 
 const mediaQueries = {
 	table: '60em',
+	phone: '40em',
 };
 
 export const darkTheme: DefaultTheme = {

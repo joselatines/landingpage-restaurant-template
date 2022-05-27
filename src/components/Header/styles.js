@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-	margin: 0 -5rem; // Ignores body padding
+	margin: 0 -5rem 4rem; // Ignores body padding
 	padding: 8rem 5rem 5rem;
 
 	display: grid;
-	grid-template-columns: 0.8fr;
+	grid-template-columns: 0.9fr;
 	grid-template-rows: repeat(3, min-content);
 	gap: 1.5rem;
 
@@ -17,14 +17,15 @@ export const Container = styled.section`
 	background-size: cover;
 
 	p {
-		width: 60%;
+		width: 70%;
+		font-weight: lighter;
 	}
 
 	@media screen and (max-width: ${({ theme }) => theme.mediaQueries.table}) {
 		grid-template-columns: auto;
-		padding: 2rem;
-		padding-top: 4rem;
-		margin: -2rem;
+		padding: 2rem 2rem;
+		padding-top: 5rem;
+		margin: -2rem -2rem 4rem;
 	}
 `;
 
@@ -36,4 +37,5 @@ export const Title = styled.span`
 
 export const Restaurant = styled(Title)`
 	color: ${({ theme }) => theme.colors.primary};
+	display: inline;
 `;

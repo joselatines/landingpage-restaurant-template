@@ -23,7 +23,16 @@ export const GlobalStyles = createGlobalStyle<{ theme: DefaultTheme }>`
 		}
 		// Project styles
 		padding: 0 5rem;
-
+		a {
+			all: unset;
+			cursor: pointer;
+		}
+		img { 
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 5px;
+		}
 		@media screen and (max-width: ${({ theme }) => theme.mediaQueries.table}) {
 			padding: 2rem;
 		}

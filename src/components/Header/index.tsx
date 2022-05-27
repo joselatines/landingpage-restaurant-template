@@ -9,15 +9,19 @@ interface Props {
 
 export default function Header({ title, paragraph, restaurant }: Props) {
 	return (
-		<Container>
+		<Container id='header'>
 			<div>
 				<Title>{title}</Title>
-				<Restaurant> {restaurant}</Restaurant>
+				<Restaurant as='h1'> {restaurant}</Restaurant>
 			</div>
 			<p>{paragraph}</p>
-			<div>
-				<Button>Button</Button>
-				<Button outline={true}>Button</Button>
+			<div style={{ display: 'flex', flexWrap: 'wrap', gap: '.2rem' }}>
+				<Button>
+					<a href='#promotions'>Promociones</a>
+				</Button>
+				<Button outline={true}>
+					<a href='#menu'>Ver menú</a>
+				</Button>
 			</div>
 		</Container>
 	);

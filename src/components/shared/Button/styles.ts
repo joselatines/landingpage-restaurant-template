@@ -11,7 +11,8 @@ export const Button = styled.button<Props>`
 	font-size: ${({ size }) => (size ? size : '1em')};
 	text-align: center;
 	width: max-content;
-	padding: 0.5em 3em;
+	padding: 0.5em 2em;
+	padding-right: 2.8em;
 	color: #fff;
 	background-color: ${({ theme }) => theme.colors.primary};
 
@@ -22,16 +23,22 @@ export const Button = styled.button<Props>`
 
 	transition: all 0.4s ease-in-out;
 	&:hover {
-		background-position: 100% 0;
+		transform: translateX(5px);
 	}
 	${({ outline, theme }) =>
 		outline &&
 		css`
 			background-color: ${({ theme }) => theme.colors.font};
 			color: ${theme.colors.primary};
+			padding-left: 2.8em;
 			&:hover {
 				color: ${theme.colors.white};
 				background-color: ${theme.colors.primary};
+				transform: translateX(-5px);
 			}
 		`}
+
+	a {
+		all: unset;
+	}
 `;
