@@ -6,14 +6,6 @@ import info from '../../restaurantInfo.json';
 import { Main } from './styles';
 
 export default function Layout() {
-	/* interface IData {
-		restaurantName: string;
-		mainLang: string;
-		seo: {
-			title: string;
-			description: string;
-		};
-	} */
 	const restaurantData = info.data;
 	const restaurantContent = info.content;
 
@@ -28,6 +20,29 @@ export default function Layout() {
 				<meta name='language' content='Spanish' />
 				<meta name='revisit-after' content='25 days' />
 				<meta name='author' content='Jose Latines' />
+
+				{/*   <!-- Open Graph / Facebook --> */}
+				<meta property='og:type' content='website' />
+				<meta property='og:url' content='https://hiromi-sushi.netlify.app' />
+				<meta property='og:title' content={restaurantData.seo.title} />
+				<meta
+					property='og:description'
+					content={restaurantData.seo.description}
+				/>
+				<meta property='og:image' content='/public/images/wallpaper.jpg' />
+
+				{/*      <!-- Twitter --> */}
+				<meta property='twitter:card' content='summary_large_image' />
+				<meta
+					property='twitter:url'
+					content='https://hiromi-sushi.netlify.app/'
+				/>
+				<meta property='twitter:title' content={restaurantData.seo.title} />
+				<meta
+					property='twitter:description'
+					content={restaurantData.seo.description}
+				/>
+				<meta property='twitter:image' content='' />
 			</Helmet>
 
 			<Header
