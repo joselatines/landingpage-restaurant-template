@@ -19,6 +19,7 @@ export const Container = styled.nav<Props>`
 	z-index: 100;
 	width: 100%;
 	left: 0;
+	top: 0;
 	div img {
 		width: 1.5rem;
 	}
