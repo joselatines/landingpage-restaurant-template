@@ -1,5 +1,5 @@
 import { Button } from '../shared/Button/styles';
-import { Container, Restaurant, Title } from './styles';
+import { Buttons, Container, Restaurant, Title } from './styles';
 
 interface Props {
 	title: string;
@@ -15,14 +15,14 @@ export default function Header({ title, paragraph, restaurant }: Props) {
 				<Restaurant as='h1'> {restaurant}</Restaurant>
 			</div>
 			<p>{paragraph}</p>
-			<div style={{ display: 'flex', flexWrap: 'wrap', gap: '.2rem' }}>
+			<Buttons >
 				<Button>
 					<a href='#promotions'>Promociones</a>
 				</Button>
 				<Button outline={true}>
 					<a href='#menu'>Ver menú</a>
 				</Button>
-			</div>
+			</Buttons>
 		</Container>
 	);
 }
