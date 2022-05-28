@@ -29,7 +29,7 @@ export default function Layout() {
 					property='og:description'
 					content={restaurantData.seo.description}
 				/>
-				<meta property='og:image' content='/public/images/wallpaper.jpg' />
+				<meta property='og:image' content='/public/images/wallpaper.webp' />
 
 				{/*      <!-- Twitter --> */}
 				<meta property='twitter:card' content='summary_large_image' />

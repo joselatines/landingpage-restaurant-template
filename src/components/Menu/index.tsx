@@ -22,7 +22,7 @@ export default function Menu({ items }: IFoodItems) {
 				</div>
 				<Button>
 					<a
-						href='https://i.ibb.co/s5gvpk8/BIO-SITE-1.jpg'
+						href='https://i.ibb.co/s5gvpk8/BIO-SITE-1.webp'
 						target='_blank'
 						rel='noopener noreferrer'
 					>

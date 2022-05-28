@@ -9,7 +9,7 @@ export const Container = styled.section`
 	grid-template-rows: repeat(3, min-content);
 	gap: 1.5rem;
 
-	background-image: url('../../images/header.jpg');
+	background-image: url('../../images/header.webp');
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;

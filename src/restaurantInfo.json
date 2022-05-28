@@ -36,16 +36,16 @@
 		"gallery": [
 			{
 				"pos": "left",
-				"img": "../../images/restaurant.jpg",
+				"img": "../../images/restaurant.webp",
 				"alt": "chefs hiromi"
 			},
-			{ "pos": "top", "img": "../../images/chef.jpg", "alt": "chefs firomi" },
+			{ "pos": "top", "img": "../../images/chef.webp", "alt": "chefs firomi" },
 			{
 				"pos": "bottom",
-				"img": "../../images/influencers.jpg",
+				"img": "../../images/influencers.webp",
 				"alt": "influencers en hiromi"
 			},
-			{ "pos": "right", "img": "../../images/dj.jpg", "alt": "dj hiromi" }
+			{ "pos": "right", "img": "../../images/dj.webp", "alt": "dj hiromi" }
 		],
 		"promotions": [
 			{
@@ -100,7 +100,7 @@
 			},
 			{
 				"title": "Roll de salmón",
-				"img": "../../images/menu/2.jpg",
+				"img": "../../images/menu/2.webp",
 				"price": 8.0,
 				"link": "https://www.instagram.com/p/CeBgw9EuSTd/"
 			},
