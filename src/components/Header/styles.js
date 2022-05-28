@@ -28,6 +28,15 @@ export const Container = styled.section`
 		padding: 2rem 2rem;
 		padding-top: 6rem;
 		margin: -2rem -2rem;
+		.buttons {
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	.buttons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
 	}
 `;
 
@@ -40,12 +49,4 @@ export const Title = styled.span`
 export const Restaurant = styled(Title)`
 	color: ${({ theme }) => theme.colors.primary};
 	display: inline;
-`;
-
-export const Buttons = styled.div`
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 1rem;
 `;

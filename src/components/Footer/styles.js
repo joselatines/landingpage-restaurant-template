@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Logo = styled.div`
 	width: 5rem;
+	margin-bottom: 8px;
 `;
 
 export const Container = styled.footer`
@@ -62,13 +63,25 @@ export const Row = styled.div`
 	}
 `;
 
-export const Column = styled.div``;
+export const Column = styled.div`
+	span {
+		fill: white;
+	}
+`;
 export const Flex = styled.div`
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0 0.5rem;
+	gap: 0 0.8rem;
 	font-size: smaller;
 	font-weight: lighter;
+
+	span {
+		transform: scale(1.5);
+		transition: color ${({ theme }) => theme.transitions.smoothShort};
+		&:hover {
+			color: ${({ theme }) => theme.colors.primary};
+		}
+	}
 `;
 
 export const Subtitle = styled.span`

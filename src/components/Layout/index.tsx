@@ -51,14 +51,8 @@ export default function Layout() {
 				restaurant={restaurantData.restaurantName}
 			/>
 
-			<div
-				style={{
-					display: 'grid',
-					placeItems: 'center',
-				}}
-			>
-				<InfoCards />
-			</div>
+			<InfoCards />
+
 			<GalleryContainer
 				images={restaurantContent.gallery}
 				title='El mejor lugar para estar'

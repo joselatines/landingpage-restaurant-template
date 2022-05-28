@@ -6,7 +6,25 @@
 			"title": "🍣Hiromi Sushi - El mejor sushi de Caracas",
 			"description": "😍 Disfruta el mejor sushi en Caracas en restaurantes de lujo ubicados en el CCCT, C.C Sambil, C.C Líder y en casa con servicio de delivery incluido",
 			"keywords": "hiromi, sushi, landing page, pagina de inicio, sitio web hiromi suhi, caracas, restaurantes de sushi caracas, comprar suhi caracas, delivery sushi, promocion sushi"
-		}
+		},
+		"socialMedia": [
+			{
+				"name": "instagram",
+				"url": "https://www.instagram.com/hiromisushive/"
+			},
+			{
+				"name": "tiktok",
+				"url": "https://www.tiktok.com/@hiromisushive"
+			},
+			{
+				"name": "facebook",
+				"url": "https://www.facebook.com/HiromiSushiVe"
+			},
+			{
+				"name": "twitter",
+				"url": "https://twitter.com/hiromisushive?s=01"
+			}
+		]
 	},
 	"content": {
 		"spanish": {
